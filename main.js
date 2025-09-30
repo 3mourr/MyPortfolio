@@ -3,7 +3,7 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
-const phrases = ["Frontend Developer", "Bug Bounty Hunter", "App Developer"];
+const phrases = ["Frontend Developer", "Bug Bounty Hunter"];
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -124,5 +124,6 @@ form.addEventListener('submit', function(event) {
   // Your code to handle the form submission goes here
   // e.g. get form data, send via AJAX, display message, etc.
 });
+
 
 
